@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/airbnb-experiences.iml" filepath="$PROJECT_DIR$/.idea/airbnb-experiences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../digital-business-card/.idea/digital-business-card.iml" filepath="$PROJECT_DIR$/../digital-business-card/.idea/digital-business-card.iml" />
+    </modules>
+  </component>
+</project>

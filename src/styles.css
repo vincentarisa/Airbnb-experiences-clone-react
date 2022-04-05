@@ -1,0 +1,55 @@
+.custom-head{
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.custom-logo{
+    left: 0.01%;
+    right: 0.01%;
+}
+
+.grey{
+    color: #918E9B;
+}
+
+.rating-span{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 110%;
+}
+
+.custom-p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 110%;
+}
+
+.price-p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 110%;
+}
+
+.bi-star{
+    color: red;
+}
+
+.custom-img{
+    width: 176px;
+    height: 235px;
+}
+
+.custom-card{
+    width: 176px;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .prof-pic{
+        max-width: 450px;
+    }
+}
