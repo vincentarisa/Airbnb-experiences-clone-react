@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card(props){
     return(
-        <div className="d-flex flex-row justify-content-center container-fluid ps-5 pt-5 mb-3">
+        <div className="d-flex flex-row justify-content-center container-fluid ps-5 pt-5 pb-5 mb-3">
             <div className="card custom-card">
                 <img src={props.img} className="card-img-top custom-card-img" alt="Experience Image"/>
                 <div className="card-body custom-card-body">
