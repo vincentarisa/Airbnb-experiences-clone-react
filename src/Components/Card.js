@@ -1,19 +1,18 @@
 import React from "react";
-import swim from "../Images/swim.png"
-import wedding from "../Images/wedding.png"
-import bike from "../Images/bike.png"
 
-export default function Card(){
+export default function Card(props){
     return(
-        <div className="row d-flex justify-content-center pb-5 pt-5">
-            <div className="col-3">
-                <div className="card custom-card">
-                    <img src={swim} className="card-img-top custom-img" alt="Bike"/>
-                    <div className="card-body">
-                        <span className="rating-span"><i className="bi bi-star" /> 5.0 <span className="grey">(6) . USA</span></span>
-                        <p className="custom-p">Life lessons with Katie Zaferes</p>
-                        <p className="price-p"><strong className="fw-bold">From $136</strong>/ person</p>
+        <div className="d-flex flex-row justify-content-center container-fluid ps-5 pt-5 mb-3">
+            <div className="card custom-card">
+                <img src={props.img} className="card-img-top custom-card-img" alt="Experience Image"/>
+                <div className="card-body custom-card-body">
+                    <div className="d-flex">
+                        <span><i className="bi bi-star-fill"/> &nbsp;</span>
+                        <span>{props.rating} <span className="grey">({props.totalrating}) .</span>&nbsp;</span>
+                        <span className="grey">{props.country}</span>
                     </div>
+                    <p className="pt-2">{props.description}</p>
+                    <p><span className="fw-bold">From {props.price}</span> / Person</p>
                 </div>
             </div>
         </div>
